@@ -1,0 +1,10 @@
+require:
+  - rubocop-minitest
+  - rubocop-rake
+
+AllCops:
+  NewCops: enable
+
+Metrics/BlockLength:
+  Exclude:
+    - 'specs/**/*_spec.rb'
